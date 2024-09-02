@@ -1,8 +1,5 @@
 ﻿using Patterns;
-using static System.Runtime.CompilerServices.RuntimeHelpers;
-using System.Diagnostics;
-using static ConsoleApp1.Program;
-namespace ConsoleApp1
+namespace FSM
 {
     public class TurnstileLocked : State<TurnstileStates>
     {
